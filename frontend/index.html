@@ -1,1 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>ProofLens</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/ethers/dist/ethers.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>ProofLens: IoT Consensus</h1>
 
+    <div class="card">
+      <h2>Submit Proof</h2>
+      <input id="dataHash" placeholder="Enter data hash" />
+      <button onclick="submitProof()">Submit</button>
+    </div>
+
+    <div class="card">
+      <h2>Vote on Proof</h2>
+      <input id="proofIdVote" placeholder="Proof ID" />
+      <button onclick="voteProof(true)">Approve</button>
+      <button onclick="voteProof(false)">Reject</button>
+    </div>
+
+    <div class="card">
+      <h2>Finalize Proof</h2>
+      <input id="proofIdFinalize" placeholder="Proof ID" />
+      <button onclick="finalizeProof()">Finalize</button>
+    </div>
+
+    <p id="status"></p>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
