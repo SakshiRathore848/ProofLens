@@ -55,6 +55,6 @@ async function finalizeProof() {
 
 function setStatus(message) {
   document.getElementById("status").innerText = message;
-}
+} 
 
 init();
