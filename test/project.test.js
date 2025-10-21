@@ -1,7 +1,7 @@
 const { expect } = require("chai");
 
 describe("ProofLens", function () {
-  let ProofLens, proofLens, owner, validator1, validator2;
+  let ProofLens, proofLens, owner, validator1, validator2; 
 
   beforeEach(async function () {
     [owner, validator1, validator2] = await ethers.getSigners();
