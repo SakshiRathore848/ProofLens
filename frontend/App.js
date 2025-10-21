@@ -4,7 +4,7 @@ let signer;
 const contractAddress = "YOUR_DEPLOYED_CONTRACT_ADDRESS";
 const contractABI = [
   "function submitProof(string memory _dataHash) external",
-  "function voteOnProof(uint256 _proofId, bool _approve) external",
+  "function voteOnProof(uint256 _proofId, bool _approve) external", 
   "function finalizeProof(uint256 _proofId) external",
 ];
 
