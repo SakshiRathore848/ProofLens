@@ -1,4 +1,4 @@
-// Connect to Ethereum provider
+// Connect to Ethereum provider 
 let contract;
 let signer;
 const contractAddress = "YOUR_DEPLOYED_CONTRACT_ADDRESS";
