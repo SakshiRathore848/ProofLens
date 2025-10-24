@@ -3,7 +3,7 @@ pragma solidity ^0.8.20;
 
 /**
  * @title ProofLens: A Lightweight Consensus Mechanism for IoT Devices
- * @notice This contract simulates a lightweight consensus system where IoT devices
+ * @notice This contract simulates a lightweight consensus system where IoT devices 
  *         can submit proofs, and validators approve/reject them to reach consensus.
  */
 contract ProofLens {
