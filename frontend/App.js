@@ -1,7 +1,7 @@
 // Connect to Ethereum provider 
 let contract;
 let signer;
-const contractAddress = "YOUR_DEPLOYED_CONTRACT_ADDRESS";
+const contractAddress = "YOUR_DEPLOYED_CONTRACT_ADDRESS"; 
 const contractABI = [
   "function submitProof(string memory _dataHash) external",
   "function voteOnProof(uint256 _proofId, bool _approve) external", 
