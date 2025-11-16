@@ -64,3 +64,6 @@ contract ProofLens {
         emit ProofFinalized(_proofId, approved);
     }
 }
+// 
+End
+// 
